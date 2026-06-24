@@ -83,11 +83,11 @@ RNN reaches a lower *numerical* loss (~0.10 vs ~0.60 for LSTM), but this reflect
 | RNN (word) | كرة القدم هي رياضة يقوم والاتحاد مباراة ويبقي تم اللعبة وهي الهدف بين شوط بالكرة الهواة... |
 | LSTM (word) | كرة القدم هي رياضة الكرة ان ان رمية رمية المدافع الخصم اذا ان اللاعب من الكرة من الاهداف... |
 
-## ✅ Conclusion
+##  Conclusion
 
 **LSTM is the stronger architecture for character-level Arabic text generation** — lower loss and noticeably more coherent output. At word-level, RNN wins on raw loss through memorization, but LSTM produces more semantically consistent sentences at epoch 50.
 
-## 🚀 Running the Project
+##  Running the Project
 
 ```bash
 pip install -r requirements.txt

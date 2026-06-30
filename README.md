@@ -18,17 +18,19 @@ This project explores Arabic text generation by training and comparing two recur
 5. Compare loss curves and generated text quality
 6. Deploy an interactive demo with Gradio
 
-## 🗂️ Repo Structure
+## 📁 Repo Structure
 
+```text
 .
 ├── notebook/
-│   └── arabic_text_generation_rnn_vs_lstm.ipynb   # Full pipeline: data → preprocessing → training → generation → Gradio demo
+│   └── arabic_text_generation_rnn_vs_lstm.ipynb
 ├── assets/
-│   ├── char_level_loss.png                        # Train/test loss curves — character level
-│   └── word_level_loss.png                        # Train/test loss curves — word level
+│   ├── char_level_loss.png
+│   └── word_level_loss.png
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
 ## 📊 Data
 
